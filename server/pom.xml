@@ -98,6 +98,11 @@
 									<mainClass>edu.sjsu.cmpe.cache.CacheService</mainClass>
 								</transformer>
 							</transformers>
+							<archive>
+               					 <manifest>
+                    				<mainClass>edu.sjsu.cmpe.cache.CacheService</mainClass>
+               					 </manifest>
+           					 </archive>
 						</configuration>
 					</execution>
 				</executions>
